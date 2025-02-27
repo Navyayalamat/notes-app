@@ -1,0 +1,10 @@
+<mat-dialog-content>
+	<p>
+		{{message}}
+	</p>
+    <h4> Delete the Record</h4>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+	<button class="mat-button" mat-raised-button color="primary" (click)="onConfirmClick()" tabindex="1">{{confirmButtonText}}</button>
+	<button class="mat-button" mat-raised-button mat-dialog-close tabindex="-1">{{cancelButtonText}}</button>
+</mat-dialog-actions>

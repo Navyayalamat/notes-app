@@ -1,0 +1,11 @@
+<mat-dialog-content>
+	<form (ngSubmit)="submit(form)" [formGroup] = "form">
+        <input type="text" formControlName="username" class="form-control" >
+        <input type="submit" class="btn btn-primary" value="Submit" [disabled]="!form.valid">
+    </form>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+	<button class="mat-button" mat-raised-button color="primary" (click)="onConfirmClick()" tabindex="1">Edit</button>
+	<button class="mat-button" mat-raised-button mat-dialog-close tabindex="-1">{{cancelButtonText}}</button>
+</mat-dialog-actions>
+
