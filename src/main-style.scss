@@ -1,0 +1,37 @@
+$purple: #a59ad7;
+$pink: #fe76c2;
+$blue: #37c7f2;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+
+$light-red: #fff3f3;
+$light: #fafcff;
+$input-color: #f3f5fa;
+
+// Path to Bulma's sass folder
+  $family-primary: '"Nunito", sans-serif';
+  $grey-dark: $brown;
+  $grey-light: $beige-light;
+  $primary: $purple;
+  $link: $blue;
+  $control-border-width: 2px;
+  $input-shadow: none;
+  $input-background-color: $input-color;
+  $body-background-color: $light;
+
+// Import the Google Font
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+
+// GLOBAL STYLES
+
+html, body{
+    height: 100%;
+    font-size: 18px !important;
+    overflow: hidden !important;
+}
+
+:root {
+  --mat-table-header-background-color: rgb(37, 6, 108);
+}
